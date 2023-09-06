@@ -1,0 +1,33 @@
+/inverse_kinematics_node:
+  ros__parameters:
+    joint_names:
+    - LF/driving
+    - LF/steering
+    - RF/driving
+    - RF/steering
+    - RR/driving
+    - RR/steering
+    - LR/driving
+    - LR/steering
+    kinematics:
+      x:
+      - 0.0
+      - 0.93
+      - 0.0
+      - 0.93
+      - 0.0
+      - -0.93
+      - 0.0
+      - -0.93
+      y:
+      - 0.0
+      - 0.71
+      - 0.0
+      - -0.71
+      - 0.0
+      - -0.71
+      - 0.0
+      - 0.71
+    wheel_radius: 0.30716
+    steer_Z_down: True
+    drive_inverted: False
